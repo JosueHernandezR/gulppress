@@ -1,0 +1,47 @@
+{
+  "name": "gulppress",
+  "version": "0.0.1",
+  "description": "Gulppress WordPress Theme",
+  "scripts": {
+    "build": "gulp -f ./src/internals/gulpfile.babel.js build --prod",
+    "clean": "gulp -f ./src/internals/gulpfile.babel.js clean",
+    "start": "gulp -f ./src/internals/gulpfile.babel.js"
+  },
+  "keywords": [
+    "wordpress",
+    "docker",
+    "docker-compose",
+    "theme",
+    "webpack",
+    "yarn",
+    "js",
+    "babel",
+    "sass",
+    "css",
+    "gulp"
+  ],
+  "author": "David Martinez",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/register": "7.9.0",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "del": "5.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "gulp": "4.0.2",
+    "gulp-clean-css": "4.3.0",
+    "gulp-cli": "2.2.0",
+    "gulp-if": "3.0.0",
+    "gulp-postcss": "8.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "prettier": "2.0.2",
+    "vinyl-named": "1.1.0",
+    "webpack-stream": "5.2.1",
+    "yargs": "15.3.1"
+  }
+}
